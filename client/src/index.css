@@ -5,4 +5,30 @@
 .container {
     max-width: 1200px;
   }
+
+
+  @media (min-width: 768px) {
+    .signupBG{
+      background-image: url('../src/assets/Images/doodles_cuau2z.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 100%;
+      background-position: center;
+  
+    }
+  }
+  @media (min-width: 768px) {
+    .BG{
+      background-image: url('../src/assets/Images/minkyeong-shin.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 100%;
+      background-position: center;
+  
+    }
+  }
+
+  body{
+    background-color: rgb(241, 245, 241);
+  }
   
